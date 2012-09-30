@@ -1,7 +1,7 @@
-ep_portal
+ep_search
 =======
 
-A etherpad-lite plugin that lists all available pads and provides a full text search.
+A etherpad-lite plugin that provides a full text search.
 
 # installing
 
