@@ -1,10 +1,7 @@
-ep_base
+ep_portal
 =======
 
-A sample etherpad-lite plugin
-
-# notes
-    replace all CAPITALIZED names with whatever you want
+A etherpad-lite plugin that lists all available pads and provides a full text search.
 
 # installing
 
