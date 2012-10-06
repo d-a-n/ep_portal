@@ -1,9 +1,23 @@
 {
-	"name": "ep_PLUGINNAME",
-	"version": "0.0.1",
-	"description": "DESCRIPTION",
-	"author": "USERNAME (REAL NAME) <MAIL@EXAMPLE.COM>",
-	"contributors": [],
-	"dependencies": {"MODULE": "0.3.20"},
-	"engines": { "node": ">= 0.6.0"}
+  "name": "ep_portal",
+  "version": "0.0.1",
+  "description": "This Etherpad Lite plugin provides a list of all pads and a full text search.",
+  "author": {
+    "name": "Daniel Korger (d-a-n)",
+    "email": "dan@imojo.de",
+    "url": "http://imojo.de"
+  },
+  "contributors": [],
+  "dependencies": {
+    "mysql": "0.9.5"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "readme": "This Etherpad Lite plugin provides a list of all pads and a full text search.\n\n# installing\n\n    npm install PATH/TO/THIS/FOLDER (from your etherpad-lite folder)\n",
+  "_id": "ep_search@0.0.1",
+  "dist": {
+    "shasum": "610ee5b0ef96342d65a66444bb851d82cc10aabd"
+  },
+  "_from": "ep_portal"
 }
