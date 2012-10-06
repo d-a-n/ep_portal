@@ -18,6 +18,8 @@ This Etherpad Lite plugin will provide a full featured portal.
 
 **Note:** At this time ep_portal only supports *MySQL*. If you are running EPL on *node-dirty* ep_portal won't work. Database support for *mongodb* and *PostgreSQL* will be available soon.
 
+*Be aware that the plugin needs some EPL hooks that are not available in the master branch yet. Please use the EPL development branch until those new hooks will be merged.*
+
 ###Install
 
 	cd /your/etherpad lite/dir
