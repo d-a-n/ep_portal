@@ -45,3 +45,8 @@ Any features missing? Please tell me.
 	cd ..
 	npm install available_plugins/ep_portal/
 	
+
+
+
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=dans&url=https://github.com/d-a-n/ep_portal&title=ep_portal&language=&tags=github&category=software) 
+	
