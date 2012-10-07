@@ -22,7 +22,8 @@ This Etherpad Lite plugin will provide a full featured portal.
 
 ###Install
 
-	cd /your/etherpad lite/dir
-	git clone https://github.com/d-a-n/ep_portal.git available_plugins/
+	cd /your/etherpad lite/dir/available_plugins/
+	git clone https://github.com/d-a-n/ep_portal.git 
+	cd ..
 	npm install available_plugins/ep_portal/
 	
