@@ -15,7 +15,7 @@
     "node": ">= 0.6.0"
   },
   "readme": "This Etherpad Lite plugin provides a list of all pads and a full text search.\n\n# installing\n\n    npm install PATH/TO/THIS/FOLDER (from your etherpad-lite folder)\n",
-  "_id": "ep_search@0.0.1",
+  "_id": "ep_portal@0.0.1",
   "dist": {
     "shasum": "610ee5b0ef96342d65a66444bb851d82cc10aabd"
   },

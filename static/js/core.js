@@ -217,7 +217,7 @@
 
 		var field = this.el.list.find('thead span[data-sort-key="'+key+'"]');
 		if (field) {
-			$(field).parent().append($('<img>').addClass('sort').attr('src', '../static/plugins/ep_search/static/images/sort_' + order + '.png'));
+			$(field).parent().append($('<img>').addClass('sort').attr('src', '../static/plugins/ep_portal/static/images/sort_' + order + '.png'));
 		}
 		
 		if (!justDOM) {
