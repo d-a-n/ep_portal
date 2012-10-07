@@ -8,7 +8,7 @@ This Etherpad Lite plugin will provide a full featured portal.
 ##Features:
 
 - full text search ✓
-- list all pads ✓
+- list all pads (with infinite scrolling) ✓
 - sort by title and date ✓
 - build with Bootstrap/Less for easy customization ✓
 - group pads [TBD]
@@ -19,9 +19,18 @@ This Etherpad Lite plugin will provide a full featured portal.
 ###1.0
 - User authentication (Password, oAuth, OpenID, Github, Facebook, Twitter, …)
 - Permission management (full access, read only, login only ,…)
-- Pad administration (create, delete)
+- Pad administration (create, delete)a
 - Group pads
 - Support for MySQL, PostgreSQL, MongoDB, ...
+
+###2.0
+- Search autocomplete and suggestions
+
+Any features missing? Please tell me.
+
+###Things for evaluation
+- Natural Language Search
+
 
 ##Setup
 
