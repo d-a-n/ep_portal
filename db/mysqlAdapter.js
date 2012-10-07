@@ -226,13 +226,16 @@ exports.database.prototype.set = function (id, content, authors, callback)
   }
   else
   {
-	console.log("\n\n\n\nUPDATE DB!!!\n\n\n\n");
+	console.log("\nUpdate pad cache...\n");
 	this.db.query("INSERT INTO `cache` (pad_id, content, authors, modified) VALUES (?,?,?,NOW()) ON DUPLICATE KEY UPDATE revisions=revisions+1, content=?, authors=?, modified=NOW();", [id, content, authors, content, authors], function(err, info){
-	  
-	  console.log(err, info);
 
-	  if (callback)
-		callback(err);
+		if (err) {
+			console.error(err, info);
+		}
+
+		if (callback) {
+			callback(err);
+		}
 	});
   }
 }

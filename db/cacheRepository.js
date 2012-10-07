@@ -73,8 +73,13 @@ exports.cache.prototype.update = function(pad) {
 	}, this.config['inactivity_timeout'] * 1000);
 }
 
-exports.cache.prototype.updatePad = function(pad) {
-	var authors = pad.getAllAuthors(),
+exports.cache.prototype.updatePad = function(data) {
+	if (!data || !data.pad) {
+		return;
+	}
+	var pad = data.pad;
+	
+	var authors = data.pad.getAllAuthors(),
 		authorNames = [],
 		self = this;
 
