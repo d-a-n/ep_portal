@@ -18,7 +18,7 @@ This Etherpad Lite plugin will provide a full featured portal.
 ##Roadmap
 ###1.0
 - User authentication (Password, oAuth, OpenID, Github, Facebook, Twitter, …)
-- Permission menagement (full access, read only, login only ,…)
+- Permission management (full access, read only, login only ,…)
 - Pad administration (create, delete)
 - Group pads
 - Support for MySQL, PostgreSQL, MongoDB, ...
